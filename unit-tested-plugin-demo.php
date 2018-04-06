@@ -12,5 +12,6 @@
  * @package         Unit_Tested_Plugin_Demo
  */
 
-// Load the calculator class.
+// Load class files.
 require 'class-calculator.php';
+require 'class-post-updater.php';
