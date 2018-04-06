@@ -21,4 +21,16 @@ class Calculator {
 	function add( $num1, $num2 ) {
 		return $num1 + $num2;
 	}
+
+	/**
+	 * Subtracts the second argument from the first argument.
+	 *
+	 * @param mixed $num1 First number.
+	 * @param mixed $num2 Second number.
+	 *
+	 * @return mixed
+	 */
+	function subtract( $num1, $num2 ) {
+		return $num1 - $num2;
+	}
 }

@@ -23,4 +23,17 @@ class Test_Calculator extends WP_UnitTestCase {
 		$this->assertEquals( 4.4, $calculator->add( 2.2, 2.2 ) );
 		$this->assertEquals( 0.5, $calculator->add( 2, -1.5 ) );
 	}
+
+	/**
+	 * Unit test for the subtract method
+	 *
+	 * @see Calculator::subtract();
+	 */
+	function test_subtract() {
+		$calculator = new Calculator();
+		$this->assertEquals( 0, $calculator->subtract( 2, 2 ) );
+		$this->assertEquals( -4, $calculator->subtract( -2, 2 ) );
+		$this->assertEquals( 2.1, $calculator->subtract( 2.2, 0.1 ) );
+		$this->assertEquals( 3.5, $calculator->subtract( 2, -1.5 ) );
+	}
 }
