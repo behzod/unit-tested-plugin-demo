@@ -4,17 +4,17 @@
  *
  * @package Unit_Tested_Plugin_Demo
  */
+
 namespace Unit_Tested_Plugin_Demo;
 /**
  * Calculator class.
  */
 class Calculator {
-
 	/**
 	 * Adds two numbers.
 	 *
-	 * @param $num1
-	 * @param $num2
+	 * @param mixed $num1 First number.
+	 * @param mixed $num2 Second number.
 	 *
 	 * @return mixed
 	 */

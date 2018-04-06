@@ -12,4 +12,5 @@
  * @package         Unit_Tested_Plugin_Demo
  */
 
+// Load the calculator class.
 require 'class-calculator.php';

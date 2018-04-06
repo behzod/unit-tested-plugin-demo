@@ -19,5 +19,8 @@ class Test_Calculator extends WP_UnitTestCase {
 	function test_add() {
 		$calculator = new Calculator();
 		$this->assertEquals( 4, $calculator->add( 2, 2 ) );
+		$this->assertEquals( 0, $calculator->add( -2, 2 ) );
+		$this->assertEquals( 4.4, $calculator->add( 2.2, 2.2 ) );
+		$this->assertEquals( 0.5, $calculator->add( 2, -1.5 ) );
 	}
 }
