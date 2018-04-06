@@ -12,4 +12,4 @@
  * @package         Unit_Tested_Plugin_Demo
  */
 
-// Your code starts here.
+require 'class-calculator.php';
