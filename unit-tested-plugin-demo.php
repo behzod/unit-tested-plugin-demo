@@ -12,4 +12,6 @@
  * @package         Unit_Tested_Plugin_Demo
  */
 
-// Your code starts here.
+// Load class files.
+require 'class-calculator.php';
+require 'class-post-updater.php';
